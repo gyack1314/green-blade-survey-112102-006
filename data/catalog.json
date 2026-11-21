@@ -124,6 +124,24 @@
       ],
       "sha256": "41add156b4248bdff29bcedff145ff76bcf52294a32f40a4e7b6888b10bc240d",
       "stage": "supplement"
+    },
+    {
+      "path": "data/updates/geometry.jsonl",
+      "rows": 1,
+      "columns": [
+        "geometry",
+        "observed_at",
+        "offset_angle",
+        "offset_s",
+        "physical_piece",
+        "revision",
+        "scale",
+        "segment",
+        "valid_from",
+        "valid_to"
+      ],
+      "sha256": "501d6ffb02d3f88bf8cf0b6f108286a6ad2e47f110602692032dcdb80e37b6dc",
+      "stage": "supplement"
     }
   ]
 }

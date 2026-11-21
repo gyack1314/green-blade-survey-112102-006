@@ -6,3 +6,5 @@ repairs.jsonl 给出 piece/s0/s1/theta0/theta1/completed_at/material；requireme
 coordinates=grid时u/v字段为网格行列边界索引；local时为毫米和度。校准gain乘原amplitude。同calibration后续通知替代有效标志但不改原扫描字节。
 
 所有名称与数值均为本地合成数据，不代表真实企业、监管结论或生态调查。data/catalog.json 保存文件哈希、原始行数与列；data/updates/ 为后到修订资料，可独立接收。JSON null 表示尚无该值，不与数值零等同；CSV保留原字符串，金额和数量应按十进制解释。来源身份相同且内容相同的重送不产生新业务事实，同身份版本不同内容需保留争议，除明确替代关系外不按到达顺序判定权威。
+
+geometry省略revision为1；同geometry较大revision是原几何解释的勘误，适用于其有效期间的历史扫描，不改变采集时间。
