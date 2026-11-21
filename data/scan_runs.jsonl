@@ -1,0 +1,3 @@
+{"scan":"PRE","geometry":"G1","calibration":"C1","grid":"GRID1","taken_at":"2026-11-01","method":"UT","resolution":5,"coordinates":"grid"}
+{"scan":"POST1","geometry":"G2","calibration":"C1","grid":null,"taken_at":"2026-11-04","method":"UT","resolution":5,"coordinates":"local"}
+{"scan":"POST2","geometry":"G2","calibration":"C2","grid":null,"taken_at":"2026-11-05","method":"UT","resolution":5,"coordinates":"local"}

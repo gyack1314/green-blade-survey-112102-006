@@ -1,0 +1,129 @@
+{
+  "synthetic": true,
+  "files": [
+    {
+      "path": "data/geometry.jsonl",
+      "rows": 2,
+      "columns": [
+        "geometry",
+        "offset_angle",
+        "offset_s",
+        "physical_piece",
+        "scale",
+        "segment",
+        "valid_from",
+        "valid_to"
+      ],
+      "sha256": "a8827105d05a8d8f4edaeb25d6201698adde103cb09462155bcb1d81d8afd31e",
+      "stage": "original"
+    },
+    {
+      "path": "data/scanner_grid.jsonl",
+      "rows": 1,
+      "columns": [
+        "grid",
+        "origin_u",
+        "origin_v",
+        "step_u",
+        "step_v"
+      ],
+      "sha256": "e65df600d6e90747ba7b373ebebd74083c3819dad0514f10b90705039be56575",
+      "stage": "original"
+    },
+    {
+      "path": "data/scan_runs.jsonl",
+      "rows": 3,
+      "columns": [
+        "calibration",
+        "coordinates",
+        "geometry",
+        "grid",
+        "method",
+        "resolution",
+        "scan",
+        "taken_at"
+      ],
+      "sha256": "31dd898138ff8c2a005c8356c5873d8edb56b7fe6224f27bde37507a406d7089",
+      "stage": "original"
+    },
+    {
+      "path": "data/scans.parquet",
+      "rows": 4,
+      "columns": [
+        "scan",
+        "cell",
+        "u0",
+        "u1",
+        "v0",
+        "v1",
+        "amplitude",
+        "quality"
+      ],
+      "sha256": "40f271077a3cee3a15fe362f8b3d9dd195599a7bcca5ab884c4e2c99c964370e",
+      "stage": "original"
+    },
+    {
+      "path": "data/calibration.csv",
+      "rows": 2,
+      "columns": [
+        "calibration",
+        "gain",
+        "valid",
+        "observed_at"
+      ],
+      "sha256": "708b2492d58d9c00931e057e87aa5ff3d223b003531705ea7133cbb4cb6a0310",
+      "stage": "original"
+    },
+    {
+      "path": "data/repairs.jsonl",
+      "rows": 2,
+      "columns": [
+        "completed_at",
+        "material",
+        "piece",
+        "repair",
+        "s0",
+        "s1",
+        "theta0",
+        "theta1"
+      ],
+      "sha256": "4df82250323c80872f665cc75af937da1cf3fa4af836c33a0391da9e61826d50",
+      "stage": "original"
+    },
+    {
+      "path": "data/requirements.csv",
+      "rows": 1,
+      "columns": [
+        "material",
+        "method",
+        "max_resolution",
+        "max_amplitude"
+      ],
+      "sha256": "c375697f28ca311a9cb51112f1d6b4a55e0d9d44ebe037326de09b9c0760676c",
+      "stage": "original"
+    },
+    {
+      "path": "data/closure_requests.jsonl",
+      "rows": 1,
+      "columns": [
+        "at",
+        "repairs",
+        "request"
+      ],
+      "sha256": "a9380a076974e958e8fe668b18b2c404e867af63d9dcebb60a9896341d140c5f",
+      "stage": "original"
+    },
+    {
+      "path": "data/updates/calibration.csv",
+      "rows": 1,
+      "columns": [
+        "calibration",
+        "gain",
+        "valid",
+        "observed_at"
+      ],
+      "sha256": "41add156b4248bdff29bcedff145ff76bcf52294a32f40a4e7b6888b10bc240d",
+      "stage": "supplement"
+    }
+  ]
+}

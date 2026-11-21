@@ -1,0 +1,20 @@
+[
+  {
+    "source": "data/scan_runs.jsonl",
+    "source_key": "geometry",
+    "target": "data/geometry.jsonl",
+    "target_key": "geometry"
+  },
+  {
+    "source": "data/scan_runs.jsonl",
+    "source_key": "calibration",
+    "target": "data/calibration.csv",
+    "target_key": "calibration"
+  },
+  {
+    "source": "data/scans.parquet",
+    "source_key": "scan",
+    "target": "data/scan_runs.jsonl",
+    "target_key": "scan"
+  }
+]
